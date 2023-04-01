@@ -468,21 +468,7 @@
               "value": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Physics2",
@@ -752,18 +738,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "EnableEffect"
-              },
-              "parameters": [
-                "Door",
-                "\"Glow\"",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
